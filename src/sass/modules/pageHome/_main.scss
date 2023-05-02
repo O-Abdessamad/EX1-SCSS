@@ -56,13 +56,17 @@
        padding: 20px;
     }
     .about{
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 10px;
         text-align: center;
 
         .text{
             width: 80vw;
         }
+    }
+    .rev{
+        flex-direction: column;
+
     }
     nav{
         padding: 10px;
