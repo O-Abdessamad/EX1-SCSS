@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav {
+  background-color: #00004c;
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+nav .logo {
+  font-weight: bolder;
+}
+nav .menu {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+nav .menu a {
+  color: #72729c;
+  text-decoration: none;
+}
+
+.coverture {
+  background-color: #0000ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 100px;
+}
+.coverture h1 {
+  font-size: 4rem;
+}
+.coverture h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1em;
+}
+.coverture button {
+  background-color: #ee0778;
+  padding: 1em;
+  border: none;
+  border-radius: 25px;
+}
+.coverture button a {
+  color: white;
+  text-decoration: none;
+}
+
+.about {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.about .text {
+  width: 30vw;
+  padding: 1rem;
+}
+.about .text h1 {
+  font-size: 2.6rem;
+}
+.about .text p {
+  font-size: 0.9rem;
+  color: grey;
+}
+.about img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+@media (max-width: 425px) {
+  .coverture {
+    padding: 20px;
+  }
+  .about {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  .about .text {
+    width: 80vw;
+  }
+  nav {
+    padding: 10px;
+  }
+}
+footer {
+  background-color: #00004c;
+  padding: 1.5em;
+  text-align: center;
+  font-size: small;
+  color: white;
+}
